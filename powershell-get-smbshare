@@ -1,0 +1,2 @@
+#This command get all smb sharing on the server
+Get-SmbShare | Where Name –like '*$*'
